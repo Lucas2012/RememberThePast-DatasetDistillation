@@ -24,9 +24,13 @@ To add data augmentations, change none to flip_rotate
 The hyperparameters are tuned with validation_ratio=0.1. When set as 0, the training will use the test set directly.
 
 ## Reference
+
+If you find the code useful for your research, please consider citing
+```bib
 @article{deng2022remember,
   title={Remember the Past: Distilling Datasets into Addressable Memories for Neural Networks},
   author={Deng, Zhiwei and Russakovsky, Olga},
   journal={arXiv preprint arXiv:2206.02916},
   year={2022}
 }
+```
